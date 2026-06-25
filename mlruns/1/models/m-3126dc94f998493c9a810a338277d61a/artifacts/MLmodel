@@ -1,0 +1,27 @@
+artifact_path: file:D:/cv_udemy/Churn Analsysis/mlruns/1/models/m-3126dc94f998493c9a810a338277d61a/artifacts
+flavors:
+  lightgbm:
+    code: null
+    data: model.skops
+    lgb_version: 4.6.0
+    model_class: lightgbm.sklearn.LGBMClassifier
+    serialization_format: skops
+    skops_trusted_types:
+    - lightgbm.sklearn.LGBMRegressor
+    - collections.OrderedDict
+    - lightgbm.basic.Booster
+    - lightgbm.sklearn.LGBMClassifier
+  python_function:
+    data: model.skops
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.lightgbm
+    python_version: 3.13.9
+mlflow_version: 3.14.0
+model_id: m-3126dc94f998493c9a810a338277d61a
+model_size_bytes: 248980
+model_uuid: m-3126dc94f998493c9a810a338277d61a
+prompts: null
+run_id: 35cb3ff7763649dcbe4d135b26c34816
+utc_time_created: '2026-06-25 16:18:17.213269'
