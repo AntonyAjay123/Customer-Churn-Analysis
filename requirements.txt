@@ -11,3 +11,5 @@ great-expectations
 pytest
 seaborn
 matplotlib
+lightgbm
+fastapi
