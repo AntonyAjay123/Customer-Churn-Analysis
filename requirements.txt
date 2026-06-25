@@ -14,3 +14,5 @@ matplotlib
 lightgbm
 fastapi
 statsmodels
+streamlit
+requests

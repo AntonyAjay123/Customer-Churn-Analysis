@@ -166,3 +166,5 @@ if __name__ == "__main__":
 #     --target Churn
 
 #mlflow ui --backend-store-uri sqlite:///mlflow.db
+#uvicorn app.main:app --reload
+#streamlit run frontend/streamlit_app.py
