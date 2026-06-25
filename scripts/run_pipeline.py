@@ -135,6 +135,7 @@ def main(args):
 
         ### stage 7: model serialization and logging
         mlflow.lightgbm.log_model(model,name='model')
+        joblib.dump(model, os.path.join(artifacts_dir, "model.pkl"))
         print("Model saved to MLflow for serving pipleline")
         # === Final Performance Summary ===
         print(f"\n  Performance Summary:")
