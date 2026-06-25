@@ -13,3 +13,4 @@ seaborn
 matplotlib
 lightgbm
 fastapi
+statsmodels
